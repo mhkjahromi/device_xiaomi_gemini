@@ -222,4 +222,7 @@
         <item>com.cyanogenmod.settings.device.KeyHandler</item>
     </string-array>
     
+    <!-- Allow waking up from Home key -->
+    <bool name="config_allowTheaterModeWakeFromKey">true</bool>
+    <bool name="config_HomeWakeButton">true</bool>
 </resources>
