@@ -41,8 +41,9 @@ PRODUCT_COPY_FILES += \
 # Camera
 $(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
 
-#Gallery
-$(call inherit-product-if-exists, vendor/oneplus/OpGallery/Android.mk)
+#OP_Gallery
+PRODUCT_PACKAGES += \
+    opgallery
 
 # ConfigPanel
 PRODUCT_PACKAGES += \
