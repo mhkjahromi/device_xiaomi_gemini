@@ -50,6 +50,9 @@ BUILD_FINGERPRINT := "Xiaomi/gemini/gemini:8.0.0/OPR1.170623.032/V9.6.1.0.OAAMIF
 
 TARGET_VENDOR := Xiaomi
 
+# Use Jelly
+TARGET_USE_JELLY := true
+
 # Set this flag in build script
 ifeq ($(CURRENT_BUILD_TYPE), gapps)
 # Use Gapps	# Use Gapps
