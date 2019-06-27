@@ -22,14 +22,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from gemini device
 $(call inherit-product, device/xiaomi/gemini/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common BootleggersROM stuff.
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
+DEVICE_MAINTAINERS := m.h.k.jahromi
+BOOTLEGGERS_BUILD_TYPE := UnShishufied
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_gemini
+PRODUCT_NAME := bootleg_gemini
 PRODUCT_DEVICE := gemini
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 5
