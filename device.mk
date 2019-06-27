@@ -38,11 +38,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml
 
 # Camera
-$(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
-
-#OP_Gallery
-PRODUCT_PACKAGES += \
-    opgallery
+	Snap
 
 # ConfigPanel
 PRODUCT_PACKAGES += \
