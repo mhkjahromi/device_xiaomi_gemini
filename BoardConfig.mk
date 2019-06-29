@@ -35,7 +35,7 @@ TARGET_KERNEL_CONFIG := gemini_defconfig
 # Inherit from the proprietary version
 -include vendor/xiaomi/gemini/BoardConfigVendor.mk
 
-# We modify several neverallows, so let the build proceed	
-ifneq ($(TARGET_BUILD_VARIANT),user)	
-SELINUX_IGNORE_NEVERALLOWS := true	
+# We modify several neverallows, so let the build proceed
+ifneq ($(TARGET_BUILD_VARIANT),user)
+SELINUX_IGNORE_NEVERALLOWS := true
 endif
