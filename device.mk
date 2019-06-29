@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml
 
 # Camera
+PRODUCT_PACKAGES += \
 	Snap
 
 # ConfigPanel
