@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/gemini/device.mk)
 
 # Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# $(call inherit-product, vendor/aosp/common.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -36,7 +36,7 @@ PRODUCT_MODEL := MI 5
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Official AospExtended
-EXTENDED_BUILD_TYPE := OFFICIAL
+# EXTENDED_BUILD_TYPE := OFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
@@ -51,9 +51,9 @@ BUILD_FINGERPRINT := "Xiaomi/gemini/gemini:8.0.0/OPR1.170623.032/V9.6.1.0.OAAMIF
 TARGET_VENDOR := Xiaomi
 
 # Build with GApps if GAPPS_BUILD is true
-ifeq ($(GAPPS_BUILD),true)
-    WITH_GAPPS := true
-    TARGET_GAPPS_ARCH := arm64
-    IS_PHONE := true
-    TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
-endif
+# ifeq ($(GAPPS_BUILD),true)
+#     WITH_GAPPS := true
+#     TARGET_GAPPS_ARCH := arm64
+#     IS_PHONE := true
+#     TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
+# endif
