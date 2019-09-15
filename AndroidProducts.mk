@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/posp_gemini.mk
+    $(LOCAL_DIR)/potato_gemini.mk
 
 COMMON_LUNCH_CHOICES := \
-    posp_gemini-user \
-    posp_gemini-userdebug \
-    posp_gemini-eng
+    potato_gemini-user \
+    potato_gemini-userdebug \
+    potato_gemini-eng
