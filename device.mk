@@ -74,10 +74,7 @@ PRODUCT_PACKAGES += \
 
 # Thermal
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal-engine-8996-lite.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8996-lite.conf \
-    $(LOCAL_PATH)/configs/thermal-engine-8996.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8996.conf \
-    $(LOCAL_PATH)/configs/thermal-engine-8996_gaming.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8996_gaming.conf \
-    $(LOCAL_PATH)/configs/thermal-engine-8996_battery.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8996_battery.conf
+    $(LOCAL_PATH)/configs/thermal-engine-8996.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8996.conf
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
